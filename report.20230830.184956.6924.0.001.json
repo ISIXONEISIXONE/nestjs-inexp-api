@@ -1,0 +1,621 @@
+
+{
+  "header": {
+    "reportVersion": 3,
+    "event": "JavaScript API",
+    "trigger": "API",
+    "filename": "report.20230830.184956.6924.0.001.json",
+    "dumpEventTime": "2023-08-30T18:49:56Z",
+    "dumpEventTimeStamp": "1693396196153",
+    "processId": 6924,
+    "threadId": 0,
+    "cwd": "C:\\Users\\89059\\Documents\\projects\\nestjs\\tutorial-project",
+    "commandLine": [
+      "node",
+      "-r",
+      "source-map-support/register",
+      "C:\\Users\\89059\\Documents\\projects\\nestjs\\tutorial-project\\dist\\main"
+    ],
+    "nodejsVersion": "v20.5.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "acorn": "8.10.0",
+      "ada": "2.5.1",
+      "ares": "1.19.1",
+      "base64": "0.5.0",
+      "brotli": "1.0.9",
+      "cjs_module_lexer": "1.2.2",
+      "cldr": "43.1",
+      "icu": "73.2",
+      "llhttp": "8.1.1",
+      "modules": "115",
+      "napi": "9",
+      "nghttp2": "1.55.1",
+      "nghttp3": "0.7.0",
+      "ngtcp2": "0.8.1",
+      "node": "20.5.0",
+      "openssl": "3.0.9+quic",
+      "simdutf": "3.2.14",
+      "tz": "2023c",
+      "undici": "5.22.1",
+      "unicode": "15.0",
+      "uv": "1.46.0",
+      "uvwasi": "0.0.18",
+      "v8": "11.3.244.8-node.10",
+      "zlib": "1.2.13.1-motley"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v20.5.0/node-v20.5.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v20.5.0/node-v20.5.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v20.5.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.22621",
+    "osVersion": "Windows 11 Home",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 23264109,
+        "nice": 0,
+        "sys": 3845609,
+        "idle": 116876125,
+        "irq": 613828
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 3375781,
+        "nice": 0,
+        "sys": 3237218,
+        "idle": 137372562,
+        "irq": 143781
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 23597843,
+        "nice": 0,
+        "sys": 879406,
+        "idle": 119508296,
+        "irq": 29375
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 2039000,
+        "nice": 0,
+        "sys": 769750,
+        "idle": 141176796,
+        "irq": 18593
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 24813828,
+        "nice": 0,
+        "sys": 3281078,
+        "idle": 115890640,
+        "irq": 156359
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 1309718,
+        "nice": 0,
+        "sys": 782734,
+        "idle": 141893078,
+        "irq": 16171
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 10104484,
+        "nice": 0,
+        "sys": 7025359,
+        "idle": 126855703,
+        "irq": 412593
+      },
+      {
+        "model": "Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz",
+        "speed": 1800,
+        "user": 2837968,
+        "nice": 0,
+        "sys": 1384625,
+        "idle": 139762937,
+        "irq": 34828
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "wiregrd",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "10.8.0.64",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Беспроводная сеть",
+        "internal": false,
+        "mac": "ec:5c:68:35:3b:bd",
+        "address": "fe80::231a:d15c:f0df:e9fb",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 17
+      },
+      {
+        "name": "Беспроводная сеть",
+        "internal": false,
+        "mac": "ec:5c:68:35:3b:bd",
+        "address": "192.168.31.152",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "KOMPIK"
+  },
+  "javascriptStack": {
+    "message": "Error: JavaScript Callstack",
+    "stack": [
+      "at new NodeError (node:internal/errors:405:5)",
+      "at Object.writeReport (node:internal/process/report:27:13)",
+      "at TransformOperationExecutor.transform (C:\\Users\\89059\\Documents\\projects\\nestjs\\tutorial-project\\node_modules\\src\\TransformOperationExecutor.ts:207:39)",
+      "at ClassTransformer.instanceToPlain (C:\\Users\\89059\\Documents\\projects\\nestjs\\tutorial-project\\node_modules\\src\\ClassTransformer.ts:25:21)",
+      "at Object.classToPlain (C:\\Users\\89059\\Documents\\projects\\nestjs\\tutorial-project\\node_modules\\src\\index.ts:23:27)",
+      "at ClassSerializerInterceptor.transformToPlain (C:\\Users\\89059\\Documents\\projects\\nestjs\\tutorial-project\\node_modules\\@nestjs\\common\\serializer\\class-serializer.interceptor.js:56:37)",
+      "at ClassSerializerInterceptor.serialize (C:\\Users\\89059\\Documents\\projects\\nestjs\\tutorial-project\\node_modules\\@nestjs\\common\\serializer\\class-serializer.interceptor.js:49:20)",
+      "at C:\\Users\\89059\\Documents\\projects\\nestjs\\tutorial-project\\node_modules\\@nestjs\\common\\serializer\\class-serializer.interceptor.js:38:54",
+      "at C:\\Users\\89059\\Documents\\projects\\nestjs\\tutorial-project\\node_modules\\rxjs\\src\\internal\\operators\\map.ts:58:33"
+    ],
+    "errorProperties": {
+      "code": "ERR_SYNTHETIC"
+    }
+  },
+  "javascriptHeap": {
+    "totalMemory": 20586496,
+    "executableMemory": 786432,
+    "totalCommittedMemory": 20586496,
+    "availableMemory": 2179797752,
+    "totalGlobalHandlesMemory": 81920,
+    "usedGlobalHandlesMemory": 76256,
+    "usedMemory": 18652672,
+    "memoryLimit": 2197815296,
+    "mallocedMemory": 1581232,
+    "externalMemory": 2295646,
+    "peakMallocedMemory": 3541496,
+    "nativeContextCount": 2,
+    "detachedContextCount": 0,
+    "doesZapGarbage": 0,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1030880,
+        "used": 737304,
+        "available": 293576
+      },
+      "old_space": {
+        "memorySize": 18481152,
+        "committedMemory": 18481152,
+        "capacity": 18142872,
+        "used": 16925832,
+        "available": 1217040
+      },
+      "code_space": {
+        "memorySize": 786432,
+        "committedMemory": 786432,
+        "capacity": 737136,
+        "used": 727376,
+        "available": 9760
+      },
+      "shared_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1048576,
+        "used": 0,
+        "available": 1048576
+      },
+      "large_object_space": {
+        "memorySize": 270336,
+        "committedMemory": 270336,
+        "capacity": 262160,
+        "used": 262160,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      },
+      "shared_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 0,
+        "used": 0,
+        "available": 0
+      }
+    }
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6effcd76d",
+      "symbol": "node::GetNodeReport+13533"
+    },
+    {
+      "pc": "0x00007ff6effd1df4",
+      "symbol": "node::TriggerNodeReport+3636"
+    },
+    {
+      "pc": "0x00007ff6effd0d81",
+      "symbol": "node::TriggerNodeReport+3377"
+    },
+    {
+      "pc": "0x00007ff6effd0091",
+      "symbol": "node::TriggerNodeReport+65"
+    },
+    {
+      "pc": "0x00007ff6effc67a2",
+      "symbol": "node::GetAnonymousMainPath+70354"
+    },
+    {
+      "pc": "0x00007ff6f0a77b2e",
+      "symbol": "v8::SharedValueConveyor::SharedValueConveyor+416270"
+    },
+    {
+      "pc": "0x00007ff6f0a7772a",
+      "symbol": "v8::SharedValueConveyor::SharedValueConveyor+415242"
+    },
+    {
+      "pc": "0x00007ff6f0a779ef",
+      "symbol": "v8::SharedValueConveyor::SharedValueConveyor+415951"
+    },
+    {
+      "pc": "0x00007ff6f0a77860",
+      "symbol": "v8::SharedValueConveyor::SharedValueConveyor+415552"
+    },
+    {
+      "pc": "0x00007ff6f0b7228e",
+      "symbol": "v8::PropertyDescriptor::writable+674286"
+    },
+    {
+      "pc": "0x00007ff6f0ae3930",
+      "symbol": "v8::PropertyDescriptor::writable+90256"
+    },
+    {
+      "pc": "0x00007ff670d28fa9",
+      "symbol": ""
+    }
+  ],
+  "resourceUsage": {
+    "free_memory": 1891184640,
+    "total_memory": 8439201792,
+    "rss": 58527744,
+    "available_memory": 1891184640,
+    "userCpuSeconds": 0.515,
+    "kernelCpuSeconds": 0.25,
+    "cpuConsumptionPercent": 1.53,
+    "userCpuConsumptionPercent": 1.03,
+    "kernelCpuConsumptionPercent": 0.5,
+    "maxRss": 80162816,
+    "pageFaults": {
+      "IORequired": 36015,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 2528,
+      "writes": 4
+    }
+  },
+  "libuv": [
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000019237ce9000"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00007ff6f3ee1970"
+    },
+    {
+      "type": "timer",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000019239862448",
+      "repeat": 0,
+      "firesInMsFromNow": 10532,
+      "expired": false
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000192398624e8"
+    },
+    {
+      "type": "idle",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000019239862560"
+    },
+    {
+      "type": "prepare",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000192398625d8"
+    },
+    {
+      "type": "check",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000019239862650"
+    },
+    {
+      "type": "async",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x00000192398626c8"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000019239966a68",
+      "width": 166,
+      "height": 10,
+      "writeQueueSize": 0,
+      "readable": false,
+      "writable": true
+    },
+    {
+      "type": "signal",
+      "is_active": true,
+      "is_referenced": false,
+      "address": "0x0000019239ad2638",
+      "signum": 28,
+      "signal": "SIGWINCH"
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000019239966018",
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": false
+    },
+    {
+      "type": "tty",
+      "is_active": false,
+      "is_referenced": true,
+      "address": "0x0000019239964b78",
+      "width": 166,
+      "height": 10,
+      "writeQueueSize": 0,
+      "readable": false,
+      "writable": true
+    },
+    {
+      "type": "tcp",
+      "is_active": true,
+      "is_referenced": true,
+      "address": "0x00000192399098d8",
+      "localEndpoint": {
+        "host": "KOMPIK",
+        "port": 3000
+      },
+      "remoteEndpoint": null,
+      "sendBufferSize": 65536,
+      "recvBufferSize": 65536,
+      "writeQueueSize": 0,
+      "readable": false,
+      "writable": false
+    },
+    {
+      "type": "tcp",
+      "is_active": true,
+      "is_referenced": true,
+      "address": "0x0000019239909cb8",
+      "localEndpoint": {
+        "host": "KOMPIK",
+        "port": 3000
+      },
+      "remoteEndpoint": {
+        "host": "KOMPIK",
+        "port": 54053
+      },
+      "sendBufferSize": 65536,
+      "recvBufferSize": 65536,
+      "writeQueueSize": 0,
+      "readable": true,
+      "writable": true
+    },
+    {
+      "type": "loop",
+      "is_active": true,
+      "address": "0x00007ff6f416d770",
+      "loopIdleTimeSeconds": 49.3746
+    }
+  ],
+  "workers": [
+  ],
+  "environmentVariables": {
+    "=C:": "C:\\Users\\89059\\Documents\\projects\\nestjs\\tutorial-project",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\89059\\AppData\\Roaming",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "133357244740615533",
+    "CHROME_CRASHPAD_PIPE_NAME": "\\\\.\\pipe\\LOCAL\\crashpad_2720_WHTGJODRVKLTWTJV",
+    "COLOR": "1",
+    "COLORTERM": "truecolor",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "KOMPIK",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "EDITOR": "C:\\WINDOWS\\notepad.exe",
+    "EFC_6752": "1",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GIT_ASKPASS": "c:\\Users\\89059\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass.sh",
+    "HOME": "C:\\Users\\89059",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\89059",
+    "INIT_CWD": "C:\\Users\\89059\\Documents\\projects\\nestjs\\tutorial-project",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\89059\\AppData\\Local",
+    "LOGONSERVER": "\\\\KOMPIK",
+    "NODE": "C:\\Program Files\\nodejs\\node.exe",
+    "NODE_EXE": "C:\\Program Files\\nodejs\\\\node.exe",
+    "NPM_CLI_JS": "C:\\Program Files\\nodejs\\\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_command": "run-script",
+    "npm_config_cache": "C:\\Users\\89059\\AppData\\Local\\npm-cache",
+    "npm_config_globalconfig": "C:\\Users\\89059\\AppData\\Roaming\\npm\\etc\\npmrc",
+    "npm_config_global_prefix": "C:\\Users\\89059\\AppData\\Roaming\\npm",
+    "npm_config_init_module": "C:\\Users\\89059\\.npm-init.js",
+    "npm_config_local_prefix": "C:\\Users\\89059\\Documents\\projects\\nestjs\\tutorial-project",
+    "npm_config_metrics_registry": "https://registry.npmjs.org/",
+    "npm_config_node_gyp": "C:\\Users\\89059\\AppData\\Roaming\\nvm\\v20.5.0\\node_modules\\npm\\node_modules\\node-gyp\\bin\\node-gyp.js",
+    "npm_config_noproxy": "",
+    "npm_config_npm_version": "9.8.0",
+    "npm_config_prefix": "C:\\Users\\89059\\AppData\\Roaming\\npm",
+    "npm_config_userconfig": "C:\\Users\\89059\\.npmrc",
+    "npm_config_user_agent": "npm/9.8.0 node/v20.5.0 win32 x64 workspaces/false",
+    "npm_execpath": "C:\\Users\\89059\\AppData\\Roaming\\nvm\\v20.5.0\\node_modules\\npm\\bin\\npm-cli.js",
+    "npm_lifecycle_event": "start:dev",
+    "npm_lifecycle_script": "nest start --watch",
+    "npm_node_execpath": "C:\\Program Files\\nodejs\\node.exe",
+    "npm_package_json": "C:\\Users\\89059\\Documents\\projects\\nestjs\\tutorial-project\\package.json",
+    "npm_package_name": "tutorial-project",
+    "npm_package_version": "0.0.1",
+    "NPM_PREFIX_NPM_CLI_JS": "C:\\Users\\89059\\AppData\\Roaming\\npm\\node_modules\\npm\\bin\\npm-cli.js",
+    "NUMBER_OF_PROCESSORS": "8",
+    "NVM_HOME": "C:\\Users\\89059\\AppData\\Roaming\\nvm",
+    "NVM_SYMLINK": "C:\\Program Files\\nodejs",
+    "OneDrive": "C:\\Users\\89059\\OneDrive",
+    "OnlineServices": "Online Services",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "Path": "C:\\Users\\89059\\Documents\\projects\\nestjs\\tutorial-project\\node_modules\\.bin;C:\\Users\\89059\\Documents\\projects\\nestjs\\node_modules\\.bin;C:\\Users\\89059\\Documents\\projects\\node_modules\\.bin;C:\\Users\\89059\\Documents\\node_modules\\.bin;C:\\Users\\89059\\node_modules\\.bin;C:\\Users\\node_modules\\.bin;C:\\node_modules\\.bin;C:\\Users\\89059\\AppData\\Roaming\\nvm\\v20.5.0\\node_modules\\npm\\node_modules\\@npmcli\\run-script\\lib\\node-gyp-bin;C:\\Program Files\\Python310\\Scripts\\;C:\\Program Files\\Python310\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Git\\cmd;C:\\Program Files\\WireGuard\\;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\Users\\89059\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\89059\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\89059\\.dotnet\\tools;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3\\bin;;C:\\Users\\89059\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\89059\\AppData\\Roaming\\npm;C:\\Users\\89059\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\89059\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL",
+    "platformcode": "1M",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 142 Stepping 10, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "8e0a",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Users\\89059\\Documents\\WindowsPowerShell\\Modules;C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "PyCharm Community Edition": "C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.3\\bin;",
+    "RegionCode": "EMEA",
+    "RG_GPU_FRAMEWORK_ENGINE_RESOURCEDIR": "C:\\Program Files\\Red Giant\\RGFX",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\89059\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.81.1",
+    "TMP": "C:\\Users\\89059\\AppData\\Local\\Temp",
+    "USERDOMAIN": "KOMPIK",
+    "USERDOMAIN_ROAMINGPROFILE": "KOMPIK",
+    "USERNAME": "89059",
+    "USERPROFILE": "C:\\Users\\89059",
+    "VSCODE_GIT_ASKPASS_EXTRA_ARGS": "--ms-enable-electron-run-as-node",
+    "VSCODE_GIT_ASKPASS_MAIN": "c:\\Users\\89059\\AppData\\Local\\Programs\\Microsoft VS Code\\resources\\app\\extensions\\git\\dist\\askpass-main.js",
+    "VSCODE_GIT_ASKPASS_NODE": "C:\\Users\\89059\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe",
+    "VSCODE_GIT_IPC_HANDLE": "\\\\.\\pipe\\vscode-git-1cb4cb1d1e-sock",
+    "VSCODE_INJECTION": "1",
+    "windir": "C:\\WINDOWS"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\ole32.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\OLEAUT32.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\SHELL32.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\SYSTEM32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbgcore.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\powrprof.dll",
+    "C:\\WINDOWS\\SYSTEM32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\bcryptprimitives.dll",
+    "C:\\WINDOWS\\SYSTEM32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\system32\\nlansp_c.dll"
+  ]
+}
